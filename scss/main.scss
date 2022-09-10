@@ -1,0 +1,101 @@
+@import './base/variables';
+
+@import './sections/header';
+@import './sections/index';
+@import './sections/footer';
+
+
+// Receteo y estilos globales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Main-contacto*/
+.main-contacto {
+    display: flex;
+    background-color: #DFD5A5;
+    align-items: center;
+    flex-direction: column;
+
+}
+/*Main-ropa*/
+.main-ropa {
+    display: flex;
+    background-color: #DFD5A5;
+    justify-content: center;
+}
+.main-ropa p{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+/* Calzado */
+.grid-container{
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    background-color: #DFD5A5;
+    grid-template-columns:1,1fr;
+    grid-template-rows: 1, 1fr;
+
+}
+.grid-container img{
+    width: 250px;
+}
+/* Accesorios */
+h4{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.img-fluid{
+    max-width: 30%;
+
+}
+/*ropa*/
+.ropa{
+    object-fit: cover;
+}
+.ropa1{
+    object-fit: cover;
+}
+
+
+
+
+/* @media (max-width: 740px) {
+    .header{
+        flex-direction: column;
+    }
+    .footer ul{
+        width: 266px;
+    }
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .grid-containerIndex{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1525px) {
+    .grid-container{
+        grid-template-columns: repeat(1,50%);
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .grid-containerIndex{
+        grid-template-columns: repeat(2,25%);
+        grid-template-rows: repeat(4, 25%);
+    }
+} */

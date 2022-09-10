@@ -1,0 +1,29 @@
+/* header*/
+.header{
+    background-color: #CF995F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 250px;
+    padding: 10px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header li, .footer li{
+    padding: 15px;
+}
+.header a, .footer a{
+    color: white;
+    font-size: xx-large;
+}
+
+.header a:hover, .footer a:hover{
+    color: #8EA8C3;
+    font-weight: bold;
+}

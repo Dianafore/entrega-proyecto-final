@@ -1,0 +1,40 @@
+
+/*Main -index*/
+.main-index{
+    min-height: 100vh;
+    background-color: #DBAD6A;
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    justify-content: space-between;
+}
+.card {
+background-color: black;
+
+}
+.color-boton{
+    background-color: #DFD5A5;
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+/* .grid-containerIndex{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3, 3fr);
+    justify-content: space-between;
+    align-items: stretch;
+}
+.grid-containerIndex img{
+    width: 250px;
+} */
