@@ -1,12 +1,16 @@
 /* header*/
 .header {
-  background-color: #CF995F;
+  background-color: #D0B17A;
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
+.d-flex {
+  padding: 0px 120px 0px 80px;
+  height: 70px; }
+
 .header img {
-  width: 250px;
+  width: 150px;
   padding: 10px; }
 
 .header ul {
@@ -14,7 +18,7 @@
   display: flex; }
 
 .header li, .footer li {
-  padding: 15px; }
+  padding: 10px; }
 
 .header a, .footer a {
   color: white;
@@ -27,7 +31,7 @@
 /*Main -index*/
 .main-index {
   min-height: 100vh;
-  background-color: #DBAD6A;
+  background-color: #F5FDC6;
   color: white; }
 
 h1 {
@@ -62,7 +66,7 @@ h1 {
 } */
 /* Footer */
 .footer {
-  background-color: #DFD5A5; }
+  background-color: #D0B17A; }
 
 .footer ul {
   list-style: none;
@@ -122,34 +126,30 @@ h4 {
 .ropa1 {
   object-fit: cover; }
 
-/* @media (max-width: 740px) {
-    .header{
-        flex-direction: column;
-    }
-    .footer ul{
-        width: 266px;
-    }
-    .grid-container{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4, 1fr);
-        justify-items: center;
-        align-items: center;
-    }
-    .grid-containerIndex{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4, 1fr);
-        justify-items: center;
-        align-items: center;
-    }
-}
+@media (max-width: 740px) {
+  .header {
+    flex-direction: column; }
+  .footer ul {
+    width: 266px; }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center; }
+  .grid-containerIndex {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center; } }
 
 @media (max-width: 1525px) {
-    .grid-container{
-        grid-template-columns: repeat(1,50%);
-        grid-template-rows: repeat(9, 1fr);
-    }
-    .grid-containerIndex{
-        grid-template-columns: repeat(2,25%);
-        grid-template-rows: repeat(4, 25%);
-    }
-} */
+  .header {
+    flex-direction: column; }
+  .footer ul {
+    width: 266px; }
+  .grid-container {
+    grid-template-columns: repeat(1, 50%);
+    grid-template-rows: repeat(9, 1fr); }
+  .grid-containerIndex {
+    grid-template-columns: repeat(2, 25%);
+    grid-template-rows: repeat(4, 25%); } }
